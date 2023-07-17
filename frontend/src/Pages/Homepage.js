@@ -26,17 +26,18 @@ const Homepage = () => {
         d='flex'
         justifyContent='center'
         p={'3'}
-        bg={'white'}
+        bg={'#B048B5'}
         w="100%"
         m='40px 0 15px 0'
+        border={'solid #B048B5'}
         borderRadius='lg'
         borderWidth="1px"
       >
-        <Text fontSize={'4xl'} fontFamily={'work sans'} color={'black'}>
+        <Text fontSize={'5xl'} fontFamily={'work sans'} color={'white'} background={'#B048B5'}>
           Talk-a-tive
         </Text>
       </Box>
-      <Box bg={'white'} w='100%' p={'4'} borderRadius={'lg'} borderWidth={'1px'}>
+      <Box bg={'#D291BC'} w='100%' p={'4'} borderRadius={'lg'} borderWidth={'1px'} border={'solid #D291BC'}>
       <Tabs variant='soft-rounded' colorScheme='green'>
         <TabList>
           <Tab width={'50%'}>Login</Tab>

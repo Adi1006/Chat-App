@@ -44,7 +44,7 @@ import io from 'socket.io-client'
             `/api/message/${selectedChat._id}`,
             config
           );
-          console.log(messages);
+          // console.log(messages);
           setMessages(data);
           setLoading(false);
     
@@ -104,7 +104,7 @@ import io from 'socket.io-client'
               },
               config
             );
-            console.group(data);
+            // console.group(data);
             socket.emit("new message", data);
             setMessages([...messages, data]);
           } catch (error) {
@@ -183,7 +183,7 @@ import io from 'socket.io-client'
               flexDir="column"
               justifyContent="flex-end"
               p={3}
-              bg="#E8E8E8"
+              bg="#E799A3"
               w="100%"
               h="100%"
               borderRadius="lg"
